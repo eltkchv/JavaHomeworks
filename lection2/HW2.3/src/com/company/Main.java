@@ -8,6 +8,7 @@ public class Main {
         Animal animal2 = new Cat();
         Animal animal3 = new Bear();
         Animal animal4 = new Snake();
+        Cat homecat = new HomeCat();
 
         animal1.voice();
         animal2.voice();

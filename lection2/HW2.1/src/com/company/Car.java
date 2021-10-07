@@ -5,6 +5,12 @@ public class Car {
     private double maxSpeed = -1;
     private double weight = -1;
 
+    public Car() {
+        model = "";
+        maxSpeed = 0;
+        weight = 0;
+    }
+
     public Car(String model) {
         this.model = model;
     }

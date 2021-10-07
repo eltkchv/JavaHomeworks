@@ -31,6 +31,8 @@ public class Main {
                 wg = in.nextDouble();
             }
 
+            Car emptyC = new Car();
+
             if ("y".equals(m) && "y".equals(w)) {
                 car = new Car(model, ms, wg);
             } else if ("y".equals(m)) {
