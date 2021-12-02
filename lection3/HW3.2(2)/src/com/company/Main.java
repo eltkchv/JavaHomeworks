@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         String string_base = "squard";
-        StringBuilder base_append = new StringBuilder("squard");
+        StringBuilder base_append = new StringBuilder(string_base);
         String stringAdd = "toxic";
 
         //просто складываем строки
