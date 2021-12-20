@@ -16,9 +16,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         String key = in.next();
         if(planetMap.containsKey(key)) {
-            System.out.println("distance to sun: "+planetMap.get(key).getDistanceToSun() +
-                    "\nmass: "+ planetMap.get(key).getMass() +
-                    "\ndiameter: "+planetMap.get(key).getDiameter());
+            System.out.println("distance to sun: "+planetMap.get(key).getDistanceToSun() + "\nmass: "+ planetMap.get(key).getMass() + "\ndiameter: "+planetMap.get(key).getDiameter());
         } else {
             System.out.println("Planet "+key+" not found");
         }
